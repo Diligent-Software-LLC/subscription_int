@@ -17,6 +17,25 @@ class SubscriptionInt
   def self.subscribable()
   end
 
+  # self.publishable().
+  # @description
+  #   Gets PUBLISHABLE.
+  # @return [Set]
+  #   PUBLISHABLE's reference.
+  def self.publishable()
+  end
+
+  # self.s_instance(subscriber = nil).
+  # @description
+  #   Predicate. Verifies an object is a subscribable type's instance.
+  # @param subscriber [.]
+  #   Any subscribable instance.
+  # @return [TrueClass, FalseClass]
+  #   True in the case subscriber is a subscribable type's instance. False
+  #   otherwise.
+  def self.s_instance(subscriber = nil)
+  end
+
   # self.publisher(published = nil).
   # @description
   #   Predicate. Verifies a published argument is a publishing type instance.

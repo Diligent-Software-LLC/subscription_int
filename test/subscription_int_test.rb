@@ -10,8 +10,9 @@ class SubscriptionIntTest < Minitest::Test
 
   # test_conf_doc_f_ex().
   # @description
-  #  The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md, 
-  #  and .yardopts files exist.
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
+  #   .yardopts, .gitignore, Changelog.md, CODE_OF_CONDUCT.md,
+  #   subscription_int.gemspec, Gemfile.lock, and Rakefile files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -20,6 +21,12 @@ class SubscriptionIntTest < Minitest::Test
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
     assert_path_exists('.yardopts')
+    assert_path_exists('.gitignore')
+    assert_path_exists('Changelog.md')
+    assert_path_exists('CODE_OF_CONDUCT.md')
+    assert_path_exists('subscription_int.gemspec')
+    assert_path_exists('Gemfile.lock')
+    assert_path_exists('Rakefile')
 
   end
 
@@ -40,13 +47,16 @@ class SubscriptionIntTest < Minitest::Test
 
   # test_pubcm_dec().
   # @description
-  #   'Subscription.subscribable()', 'Subscription.publisher(published = nil)',
-  #   and 'Subscription.update(instance = nil)' were declared.
+  #   'Subscription.subscribable()', 'Subscription.publishable()',
+  #   'Subscription.publisher(published = nil)', and
+  #   'Subscription.update(instance = nil)' were declared.
   def test_pubcm_dec()
 
     assert_includes(@pub_c_m, :subscribable)
+    assert_includes(@pub_c_m, :publishable)
     assert_includes(@pub_c_m, :publisher)
     assert_includes(@pub_c_m, :update)
+    assert_includes(@pub_c_m, :s_instance)
 
   end
 
@@ -60,7 +70,7 @@ class SubscriptionIntTest < Minitest::Test
 
   # teardown().
   # @description
-  #  Cleanup.
+  #   Cleanup.
   def teardown()
   end
 
