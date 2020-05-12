@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42c7c2e-dffe-4d50-ace4-d33dd0c7aada" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subscription_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_int.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,7 @@
       <updated>1588801880857</updated>
       <workItem from="1588801882192" duration="5223000" />
       <workItem from="1589292781952" duration="360000" />
-      <workItem from="1589302198261" duration="1485000" />
+      <workItem from="1589302198261" duration="2951000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added README.md. Added Gem Specification.">
       <created>1588805248479</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589305738530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md.">
+      <created>1589305964187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589305964187</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Subscription Subsystem:{ No Subsystem } Component: Interface Sprints: 1 State: {Prepare Deployment}" />
@@ -161,7 +168,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb. Added README.md. Added Gem Specification." />
     <MESSAGE value="Development Complete&#10;&#10;Added subscription_int.rb. Added method declaration tests." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Added 'Subscription.publishable()' and 'Subscription.s_instance(subscriber = nil)'. Added method declaration test coverage. Edited subscription_int_test.rb format." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Added 'Subscription.publishable()' and 'Subscription.s_instance(subscriber = nil)'. Added method declaration test coverage. Edited subscription_int_test.rb format." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -169,10 +177,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="451" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588804213885" />
-    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2" timestamp="1589305738132">
+    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2" timestamp="1589305963905">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589305738132" />
+    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589305963905" />
     <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1589305746580">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -189,6 +197,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589305746580" />
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2" timestamp="1589306054249">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1589306054249" />
     <state x="443" y="235" width="816" height="550" key="find.popup" timestamp="1588804481153">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
