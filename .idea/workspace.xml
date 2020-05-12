@@ -26,10 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42c7c2e-dffe-4d50-ace4-d33dd0c7aada" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/subscription_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/subscription_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/subscription_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/subscription_int_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,7 @@
       <updated>1588801880857</updated>
       <workItem from="1588801882192" duration="5223000" />
       <workItem from="1589292781952" duration="360000" />
-      <workItem from="1589302198261" duration="1117000" />
+      <workItem from="1589302198261" duration="1485000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb. Added README.md. Added Gem Specification.">
       <created>1588805248479</created>
@@ -130,10 +128,17 @@
       <option name="project" value="LOCAL" />
       <updated>1588878348184</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Prepare Deployment&#10;&#10;Added 'Subscription.publishable()' and 'Subscription.s_instance(subscriber = nil)'. Added method declaration test coverage. Edited subscription_int_test.rb format.">
+      <created>1589305738530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589305738530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Subscription Subsystem:{ No Subsystem } Component: Interface Sprints: 1 State: Development" />
+        <option name="defaultSearch" value="project: Subscription Subsystem:{ No Subsystem } Component: Interface Sprints: 1 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -141,10 +146,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb. Added README.md. Added Gem Specification." />
     <MESSAGE value="Development Complete&#10;&#10;Added subscription_int.rb. Added method declaration tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Added subscription_int.rb. Added method declaration tests." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Added 'Subscription.publishable()' and 'Subscription.s_instance(subscriber = nil)'. Added method declaration test coverage. Edited subscription_int_test.rb format." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Added 'Subscription.publishable()' and 'Subscription.s_instance(subscriber = nil)'. Added method declaration test coverage. Edited subscription_int_test.rb format." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -152,34 +169,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="451" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588804213885" />
-    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2" timestamp="1588878347860">
+    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2" timestamp="1589305738132">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1588878347860" />
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1589305321601">
+    <state x="191" y="94" width="1313" height="894" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589305738132" />
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1589305746580">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589305321601" />
-    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1589305321600">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589305746580" />
+    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1589305746579">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589305321600" />
-    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1589305321600">
+    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589305746579" />
+    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1589305746579">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589305321600" />
-    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1589305321600">
+    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589305746579" />
+    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1589305746580">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589305321600" />
+    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589305746580" />
     <state x="443" y="235" width="816" height="550" key="find.popup" timestamp="1588804481153">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1588804481153" />
-    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1588871866919">
+    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589305791190">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1588871866919" />
+    <state x="516" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589305791190" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/subscription_int@SubscriptionIntTest.rcov" NAME="SubscriptionIntTest Coverage Results" MODIFIED="1589305563254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subscription_int" />
